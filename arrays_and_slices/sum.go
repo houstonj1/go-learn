@@ -6,5 +6,5 @@ func Sum(numbers [5]int) int {
 	for i := 0; i < 5; i++ {
 		sum += numbers[i]
 	}
-	return 0
+	return sum
 }
