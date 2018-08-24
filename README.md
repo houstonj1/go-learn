@@ -6,7 +6,7 @@ Repository created to follow the tutorials found here - [Go Fundamentals](https:
 Install Go [##########################] -- Done  
 Hello, World [########################] -- Done  
 Integers [############################] -- Done
-Iteration  
+Iteration [###########################] -- Done 
 Arrays and slices  
 Structs, methods & interfaces  
 Pointers & errors  
