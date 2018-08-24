@@ -2,6 +2,7 @@
 
 Repository created to follow the tutorials found here - [Go Fundamentals](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/install-go)
 
+## Go Fundamentals
 <pre>
 Install Go [##########################] -- Done  
 Hello, World [########################] -- Done  
@@ -12,4 +13,12 @@ Structs, methods & interfaces
 Pointers & errors  
 </pre>
 
-
+## Build an Application
+<pre>
+Intro  
+HTTP server  
+JSON, routing and embedding  
+IO and sorting  
+Command line & package structure  
+Time (WIP)  
+</pre>
