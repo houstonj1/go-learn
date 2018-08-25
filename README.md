@@ -1,6 +1,8 @@
 # Go-Learn
 
-Repository created to follow the tutorials found here - [Go Fundamentals](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/install-go)
+Learning and understanding Golang and the concepts of Test Driven Development  
+
+Created to follow the tutorials found here - [Go Fundamentals](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/install-go)
 
 ## Go Fundamentals
 <pre>
