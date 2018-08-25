@@ -10,7 +10,7 @@ Install Go [##########################] -- Done
 Hello, World [########################] -- Done  
 Integers [############################] -- Done
 Iteration [###########################] -- Done 
-Arrays and slices  
+Arrays and slices [###################] -- Done
 Structs, methods & interfaces  
 Pointers & errors  
 </pre>
