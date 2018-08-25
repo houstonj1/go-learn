@@ -13,6 +13,12 @@ Iteration [###########################] -- Done
 Arrays and slices [###################] -- Done
 Structs, methods & interfaces  
 Pointers & errors  
+Maps  
+Dependency Injection  
+Mocking  
+Concurrency  
+Select  
+Reflection  
 </pre>
 
 ## Build an Application
