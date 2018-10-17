@@ -11,7 +11,7 @@ Hello, World [########################] -- Done
 Integers [############################] -- Done
 Iteration [###########################] -- Done 
 Arrays and slices [###################] -- Done
-Structs, methods & interfaces [###    ] -- 33% Done  
+Structs, methods & interfaces    
 Pointers & errors  
 Maps  
 Dependency Injection  
