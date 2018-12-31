@@ -5,6 +5,9 @@ import (
 	"fmt"
 )
 
+// ErrInsufficientFunds error
+var ErrInsufficientFunds = errors.New("cannot widthdraw, insufficient funds")
+
 // Dollar type
 type Dollar int
 
@@ -26,7 +29,7 @@ func (w *Wallet) Balance() Dollar {
 // Withdraw method
 func (w *Wallet) Withdraw(amount Dollar) error {
 	if amount > w.balance {
-		return errors.New("cannot widthdraw, insufficient funds")
+		return ErrInsufficientFunds
 	}
 
 	w.balance -= amount
