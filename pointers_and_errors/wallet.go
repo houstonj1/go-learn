@@ -26,7 +26,7 @@ func (w *Wallet) Balance() Dollar {
 // Withdraw method
 func (w *Wallet) Withdraw(amount Dollar) error {
 	if amount > w.balance {
-		return errors.New("oh no")
+		return errors.New("cannot widthdraw, insufficient funds")
 	}
 
 	w.balance -= amount
