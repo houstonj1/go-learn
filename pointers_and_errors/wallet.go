@@ -20,6 +20,11 @@ func (w *Wallet) Balance() Dollar {
 	return w.balance
 }
 
+// Withdraw method
+func (w *Wallet) Withdraw(amount Dollar) {
+	w.balance -= amount
+}
+
 // Stringer interface
 type Stringer interface {
 	String() string
