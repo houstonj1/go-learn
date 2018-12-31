@@ -12,7 +12,7 @@ Integers [############################] -- Done
 Iteration [###########################] -- Done 
 Arrays and slices [###################] -- Done
 Structs, methods & interfaces [#######] -- Done  
-Pointers & errors  
+Pointers & errors [###################] -- Done  
 Maps  
 Dependency Injection  
 Mocking  
