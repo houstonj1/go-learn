@@ -1,6 +1,9 @@
 package errors
 
-import "fmt"
+import (
+	"errors"
+	"fmt"
+)
 
 // Dollar type
 type Dollar int
@@ -21,8 +24,13 @@ func (w *Wallet) Balance() Dollar {
 }
 
 // Withdraw method
-func (w *Wallet) Withdraw(amount Dollar) {
+func (w *Wallet) Withdraw(amount Dollar) error {
+	if amount > w.balance {
+		return errors.New("oh no")
+	}
+
 	w.balance -= amount
+	return nil
 }
 
 // Stringer interface
