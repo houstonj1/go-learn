@@ -62,4 +62,5 @@ func (d Dictionary) Update(word, definition string) error {
 
 // Delete method
 func (d Dictionary) Delete(word string) {
+	delete(d, word)
 }
