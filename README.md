@@ -14,7 +14,7 @@ Arrays and slices [###################] -- Done
 Structs, methods & interfaces [#######] -- Done  
 Pointers & errors [###################] -- Done  
 Maps [################################] -- Done  
-Dependency Injection  
+Dependency Injection [################] -- Done  
 Mocking  
 Concurrency  
 Select  
