@@ -18,9 +18,18 @@ type Sleeper interface {
 // DefaultSleeper struct
 type DefaultSleeper struct{}
 
+// ConfigurableSleeper struct
+type ConfigurableSleeper struct {
+	duration time.Duration
+	sleep    func(time.Duration)
+}
+
 // Sleep function
 func (d *DefaultSleeper) Sleep() {
 	time.Sleep(1 * time.Second)
+}
+
+func (c *ConfigurableSleeper) Sleep() {
 }
 
 // Countdown function
