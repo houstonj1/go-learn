@@ -1,6 +1,9 @@
 package maps
 
-// Search function
-func Search(dictionary map[string]string, word string) string {
-	return dictionary[word]
+// Dictionary type
+type Dictionary map[string]string
+
+// Search method
+func (d Dictionary) Search(word string) string {
+	return d[word]
 }
