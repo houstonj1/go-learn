@@ -15,7 +15,7 @@ Structs, methods & interfaces [#######] -- Done
 Pointers & errors [###################] -- Done  
 Maps [################################] -- Done  
 Dependency Injection [################] -- Done  
-Mocking  
+Mocking [#############################] -- Done  
 Concurrency  
 Select  
 Reflection  
