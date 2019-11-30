@@ -1,6 +1,6 @@
 # Arrays and slices
 
-Concepts covered in this chapter - found [here](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices#wrapping-up)
+Concepts covered in this chapter - found [here](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/arrays-and-slices)
 - Introducing arrays
 - Introducing slices
   - How to create them

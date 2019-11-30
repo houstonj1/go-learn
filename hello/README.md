@@ -1,6 +1,6 @@
 # Hello, World
 
-Concepts covered in this chapter - found [here](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world#wrapping-up)
+Concepts covered in this chapter - found [here](https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world)
 
 - Setting up an environment
 - Writing tests
