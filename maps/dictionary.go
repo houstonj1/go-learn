@@ -4,6 +4,6 @@ package maps
 type Dictionary map[string]string
 
 // Search method
-func (d Dictionary) Search(word string) string {
-	return d[word]
+func (d Dictionary) Search(word string) (string, error) {
+	return d[word], nil
 }
