@@ -13,7 +13,7 @@ Iteration [###########################] -- Done
 Arrays and slices [###################] -- Done
 Structs, methods & interfaces [#######] -- Done  
 Pointers & errors [###################] -- Done  
-Maps  
+Maps [################################] -- Done  
 Dependency Injection  
 Mocking  
 Concurrency  
