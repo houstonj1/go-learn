@@ -42,3 +42,7 @@ func (d Dictionary) Add(word, definition string) error {
 
 	return nil
 }
+
+// Update method
+func (d Dictionary) Update(word, definition string) {
+}
